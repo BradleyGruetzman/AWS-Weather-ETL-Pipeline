@@ -1,0 +1,30 @@
+{
+  "coord": {
+    "lon": -93.265,
+    "lat": 44.9778
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 14.25,
+    "feels_like": 13.80,
+    "pressure": 1021,
+    "humidity": 67
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.09
+  },
+  "dt": 1710000000,
+  "sys": {
+    "country": "US"
+  },
+  "timezone": -21600,
+  "name": "Minneapolis"
+}

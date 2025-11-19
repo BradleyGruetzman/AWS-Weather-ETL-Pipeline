@@ -24,7 +24,7 @@ FROM weather_data
 GROUP BY description
 ORDER BY COUNT(*) DESC;
 
--- Convert timestamp from text to proper timestamp (optional)
+-- Convert timestamp from text to proper timestamp
 SELECT
     city,
     temperature,
@@ -32,4 +32,5 @@ SELECT
     description,
     TO_TIMESTAMP(timestamp, 'YYYY-MM-DD HH24:MI:SS') AS ts_converted
 FROM weather_data
+
 ORDER BY ts_converted DESC;
